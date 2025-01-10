@@ -15,7 +15,7 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 */
 
 function panic(sentence) {
-  return sentence.split(" ").join(" 😱 ").toUpperCase();
+  return sentence.split(" ").join(" 😱 ").toUpperCase() + "!";
 }
 
 // Test your function
